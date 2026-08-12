@@ -11,11 +11,13 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div id="top" class="top-anchor"></div>
   <div class="bg-grid" aria-hidden="true"></div>
 
   <header class="site-header">
     <a class="logo" href="#top">신준호</a>
     <nav>
+      <a href="#top">Top</a>
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
@@ -25,7 +27,7 @@
     </nav>
   </header>
 
-  <main id="top">
+  <main>
     <section class="hero">
       <p class="eyebrow">Unity · Game Client · OpheliaKing</p>
       <h1>유니티 클라이언트 프로그래머<br /><span>신준호</span></h1>
@@ -312,8 +314,27 @@
     <p>© <span id="year"></span> 신준호 (OpheliaKing) · Deployed with GitHub Pages</p>
   </footer>
 
+  <a class="to-top" href="#top" id="toTop">맨 위로</a>
+
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    function scrollToTop(event) {
+      if (event) event.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      history.replaceState(null, "", location.pathname + location.search);
+    }
+
+    document.querySelector(".logo").addEventListener("click", scrollToTop);
+    document.getElementById("toTop").addEventListener("click", scrollToTop);
+    document.querySelector('nav a[href="#top"]').addEventListener("click", scrollToTop);
+
+    const toTop = document.getElementById("toTop");
+    function updateToTop() {
+      toTop.classList.toggle("show", window.scrollY > 320);
+    }
+    window.addEventListener("scroll", updateToTop, { passive: true });
+    updateToTop();
   </script>
 </body>
 </html>
