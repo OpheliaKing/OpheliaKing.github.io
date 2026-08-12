@@ -35,11 +35,12 @@ git push -u origin main
 
 ## 포함된 내용
 
-- Experience: 라이펄스, 리본게임즈
+- Experience: 라이펄스, 리본게임즈, 셀로직
 - Education: 연성대 / 평촌정보산업고 / 정보처리기능사
-- Projects: SHIN 덱빌딩, Multi Puzzle (2025Game)
+- Projects: 스칼렛 드로우(덱빌딩 로그라이크), Multi Puzzle
+- Practice: Action Girl, Shoot Hero, Rush And Dash, Black Deer
 - Contact: ophelia01@naver.com
 
-- SHIN: https://github.com/OpheliaKing/2026_DeckBuilding
+- 스칼렛 드로우: https://github.com/OpheliaKing/2026_DeckBuilding
 - Multi Puzzle: https://github.com/OpheliaKing/2025Game
 - 영상: https://www.youtube.com/watch?v=8iVBcelnfdc
