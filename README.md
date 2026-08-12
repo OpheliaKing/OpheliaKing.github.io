@@ -33,15 +33,13 @@ git push -u origin main
 프로젝트 페이지 레포(`portfolio`)를 쓰면 URL은  
 `https://opheliaking.github.io/portfolio/` 형태입니다.
 
-## 수정할 곳
+## 포함된 내용
 
-`index.html`에서 `<!-- TODO -->` 검색:
+- Experience: 라이펄스, 리본게임즈
+- Education: 연성대 / 평촌정보산업고 / 정보처리기능사
+- Projects: SHIN 덱빌딩, Multi Puzzle (2025Game)
+- Contact: ophelia01@naver.com
 
-- Experience (회사/기간/업무)
-- Contact 이메일
-- 추가 프로젝트 카드
-
-덱빌딩 프로젝트 링크는 이미 연결되어 있습니다.
-
-- GitHub: https://github.com/OpheliaKing/2026_DeckBuilding
+- SHIN: https://github.com/OpheliaKing/2026_DeckBuilding
+- Multi Puzzle: https://github.com/OpheliaKing/2025Game
 - 영상: https://www.youtube.com/watch?v=8iVBcelnfdc
