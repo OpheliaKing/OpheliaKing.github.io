@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OpheliaKing — Portfolio</title>
+  <meta name="description" content="Unity / Game Client Developer Portfolio — OpheliaKing" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">OpheliaKing</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Unity · Game Client</p>
+      <h1>게임 클라이언트 개발자<br /><span>OpheliaKing</span></h1>
+      <p class="lead">
+        Unity 기반 덱빌딩·전투·UI 시스템을 설계하고 구현합니다.
+        데이터 주도(SO)와 Addressables로 확장 가능한 구조를 선호합니다.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">프로젝트 보기</a>
+        <a class="btn ghost" href="https://github.com/OpheliaKing" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="card about-card">
+        <p>
+          Unity로 턴제 카드 전투, 스테이지 맵 런, UI 스택, 세이브/로드까지
+          한 사이클을 직접 구현한 개인/실무형 프로젝트를 운영하고 있습니다.
+        </p>
+        <ul class="tag-list">
+          <li>C#</li>
+          <li>Unity 2022 LTS</li>
+          <li>URP</li>
+          <li>Addressables</li>
+          <li>Cinemachine</li>
+          <li>ScriptableObject</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <p class="section-note">아래 항목은 본인 경력에 맞게 수정하세요. (<code>index.html</code> Experience 섹션)</p>
+
+      <article class="timeline-item card">
+        <div class="timeline-meta">
+          <h3><!-- TODO -->회사명 / 팀명</h3>
+          <span class="role"><!-- TODO -->클라이언트 프로그래머</span>
+          <time><!-- TODO -->20XX.XX — 20XX.XX</time>
+        </div>
+        <ul>
+          <li><!-- TODO -->담당 기능 1 (예: 전투 UI, 인벤토리, 세이브)</li>
+          <li><!-- TODO -->담당 기능 2 (예: 최적화, 툴, 연출)</li>
+          <li><!-- TODO -->성과/수치 있으면 한 줄</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item card">
+        <div class="timeline-meta">
+          <h3><!-- TODO -->이전 회사 / 프로젝트</h3>
+          <span class="role"><!-- TODO -->역할</span>
+          <time><!-- TODO -->기간</time>
+        </div>
+        <ul>
+          <li><!-- TODO -->핵심 업무</li>
+          <li><!-- TODO -->사용 기술</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="project card featured">
+        <div class="project-head">
+          <h3>SHIN — 3D 덱빌딩 로그라이크</h3>
+          <span class="badge">Featured</span>
+        </div>
+        <p>
+          Unity 2022.3 LTS / URP 기반 스테이지 맵 런 게임.
+          캐릭터 선택 → 맵 탐색 → 턴제 카드 전투 → 보상·상점·이벤트 → 엔딩까지 한 사이클 구현.
+        </p>
+        <ul class="feature-list">
+          <li>Addressables + ScriptableObject 데이터 주도 구조</li>
+          <li>스테이지 맵 / 전투 / 버프·아이템 / UI 스택 / 로컬 세이브</li>
+          <li>Cinemachine 스킬 카메라 · lilToon 사망 디졸브</li>
+        </ul>
+        <div class="project-links">
+          <a class="btn primary" href="https://github.com/OpheliaKing/2026_DeckBuilding" target="_blank" rel="noopener">GitHub README</a>
+          <a class="btn ghost" href="https://www.youtube.com/watch?v=8iVBcelnfdc" target="_blank" rel="noopener">플레이 영상</a>
+        </div>
+        <ul class="tag-list compact">
+          <li>Unity</li>
+          <li>C#</li>
+          <li>URP</li>
+          <li>Addressables</li>
+          <li>Cinemachine</li>
+        </ul>
+      </article>
+
+      <article class="project card">
+        <div class="project-head">
+          <h3><!-- TODO -->다른 프로젝트 이름</h3>
+        </div>
+        <p><!-- TODO -->한 줄 설명 + 본인 기여</p>
+        <div class="project-links">
+          <a class="btn ghost" href="#" target="_blank" rel="noopener">링크</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card contact-card">
+        <p>협업·채용 문의 환영합니다.</p>
+        <div class="contact-links">
+          <a href="https://github.com/OpheliaKing" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:YOUR_EMAIL@example.com"><!-- TODO -->Email</a>
+          <!-- <a href="https://www.linkedin.com/in/YOUR_ID" target="_blank" rel="noopener">LinkedIn</a> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> OpheliaKing · Deployed with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
