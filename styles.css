@@ -224,6 +224,15 @@ main {
   border: 1px solid var(--line);
   background: #0b0a0c;
 }
+.project-shots.single {
+  grid-template-columns: 1fr;
+}
+.project-shots.single img {
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+  background: #141218;
+}
 .feature-list {
   margin: 0 0 1rem;
   padding-left: 1.1rem;
@@ -297,4 +306,5 @@ main {
   .practice-grid { grid-template-columns: 1fr; }
   .project-shots { grid-template-columns: 1fr; }
   .project-shots img { height: 180px; }
+  .project-shots.single img { height: auto; max-height: 240px; }
 }
