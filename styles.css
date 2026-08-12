@@ -147,6 +147,15 @@ main {
   font-size: 0.9rem;
   margin: -0.25rem 0 1rem;
 }
+.project-group {
+  margin: 1.6rem 0 0.35rem;
+  font-size: 1.05rem;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+}
+.project-group + .section-note {
+  margin-bottom: 0.85rem;
+}
 
 .card {
   background: rgba(16, 24, 42, 0.92);
