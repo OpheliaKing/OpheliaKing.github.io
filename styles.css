@@ -283,7 +283,6 @@ main {
 }
 .practice-links a:hover { border-bottom-color: var(--accent); }
 
-.contact-card p { margin-top: 0; color: var(--muted); }
 .contact-links a {
   color: var(--accent);
   border-bottom: 1px solid transparent;
