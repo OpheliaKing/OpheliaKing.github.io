@@ -37,6 +37,7 @@ git push -u origin main
 
 - Experience: 라이펄스, 리본게임즈, 셀로직
 - Education: 연성대 / 평촌정보산업고 / 정보처리기능사
+- WIP: Genshin Casino (개발중 · 포커/서바이벌런)
 - Projects: Company(Dosa, CHASERS) / Personal(스칼렛 드로우, Multi Puzzle)
 - Practice: Action Girl, Shoot Hero, Rush And Dash, Black Deer
 - Contact: ophelia01@naver.com

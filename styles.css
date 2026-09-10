@@ -228,6 +228,44 @@ main {
   background: rgba(79, 127, 209, 0.22);
   color: var(--accent);
 }
+.badge.wip {
+  background: rgba(232, 168, 56, 0.22);
+  color: #f0c674;
+  border: 1px solid rgba(240, 198, 116, 0.35);
+  letter-spacing: 0.02em;
+}
+.hero-wip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.65rem;
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.hero-wip a {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+}
+.hero-wip a:hover { border-bottom-color: var(--accent); }
+.wip-card {
+  border-color: rgba(240, 198, 116, 0.4);
+  background:
+    linear-gradient(180deg, rgba(232, 168, 56, 0.14), transparent 42%),
+    rgba(16, 24, 42, 0.96);
+}
+.wip-status {
+  margin: 0 0 0.75rem !important;
+  color: #f0c674 !important;
+  font-family: var(--mono);
+  font-size: 0.86rem;
+}
+.wip-status strong { color: #ffe2a0; font-weight: 700; }
+.section-note a {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+}
+.section-note a:hover { border-bottom-color: var(--accent); }
 .project > p { color: var(--muted); margin: 0 0 0.75rem; }
 .project-shots {
   display: grid;
